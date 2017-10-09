@@ -1,0 +1,134 @@
+#index {
+	margin: 0 auto;
+
+}
+
+header>ul {
+	overflow: hidden;
+	margin: 0 auto;
+	max-width: 900px;
+}
+
+header>ul>li {
+	float: left;
+	list-style: none;
+	margin: 20px;
+
+}
+
+header>ul>li>a {
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 20px;
+
+}
+
+h1, h2 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	width: 600px;
+	margin: 30px auto;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+a:hover {
+	background-color: rgba(0,0,0,0.5);
+}
+
+
+
+header {
+	background-image: url("header.jpg");
+	padding-top: 80px;
+	background-position: 50%;
+	width: 100%;
+}
+
+#aboutuspage {
+	margin: 0 auto;
+}
+
+#library {
+	content: url(aboutus.jpg);
+	margin: 30px auto;
+}
+
+footer {
+	background-color: #000;
+	padding: 15px;
+	border-radius: 20px;
+}
+
+footer>p {
+	color: #FFF;
+}
+
+#browse {
+	width: 600px;
+	margin: 10px auto;
+}
+#browse>.row>input {
+	padding: 15px;
+}
+
+#browse>input {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#contactform {
+	width: 600px;
+	margin: 10px auto;
+}
+
+#contactform>.row>input {
+	padding: 15px;
+}
+
+#contactform>input {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+
+#book1 {
+	content: url(book1.jpg);
+	width: 200px;
+	padding: 30px;
+}
+
+#book2 {
+	content: url(book2.jpg);
+	width: 200px;
+	padding: 30px;
+}
+
+#mybooks {
+	overflow: hidden;
+	width: 300px;
+	margin: 20px auto;
+}
+
+#mybooks>ul {
+	float: left;
+}
+
+#mybooks>ul>p {
+	margin-left: 30px;
+}
+
+ul>li>a.active{
+	background-color: rgba(0,0,0,0.5);
+	color: #123BFA;
+}
+
+#getbooks {
+	width: 600px;
+	margin: 0 auto;
+}
+
